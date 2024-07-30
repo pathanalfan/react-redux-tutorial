@@ -7,7 +7,7 @@ const cardItems= (state = intialState, action)=>{
     case Add_To_Cart: 
     return{
       ...state,
-      cardData:action.Data,
+      cardData:action.data,
     };
     default:
       return state
